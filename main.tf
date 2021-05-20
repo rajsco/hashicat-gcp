@@ -40,6 +40,7 @@ resource "google_compute_instance" "hashicat" {
   zone         = "${var.region}-b"
   machine_type = var.machine_type
   billable = true
+  department = HR
 
   boot_disk {
     initialize_params {
