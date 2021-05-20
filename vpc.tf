@@ -1,7 +1,7 @@
 module "network" {
   source  = "app.terraform.io/RANJEET-training/network/google"
   version = "2.5.0"
-  network_name = "ranjeet-singh-network"
+  network_name = "ranjeetsingh-network"
   project_id = var.project
   # insert required variables here
   subnets = [
